@@ -1,0 +1,22 @@
+---
+output: github_document
+---
+
+# Repository for R package checktext
+
+
+# Motivation
+
+TODO: 
+
+# Installation
+
+```{r, eval=FALSE}
+# install from github (up to date version)
+if (!require(devtools)) install.packages(devtools)
+devtools::install_github('msperlin/checktext')
+```
+
+## Example of usage
+
+TODO: 

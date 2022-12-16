@@ -1,0 +1,30 @@
+Package: textcheck
+Type: Package
+Title: Check text in Rmd or Quarto files for problems
+Version: 0.5.0
+Author: Marcelo S. Perlin
+Maintainer: Marcelo S. Perlin <marceloperlin@gmail.com>
+Description: Includes functions for checking if text in R related files are Ok.
+License: MIT + file LICENSE
+BugReports: https://github.com/msperlin/textcheck/issues
+URL: https://github.com/msperlin/textcheck/
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Depends: R (>= 4.0.0)
+Imports: 
+  readr,
+  purrr,
+  fs,
+  qdapDictionaries,
+  dplyr,
+  cli, 
+  fs,
+  stringr,
+  httr,
+  httpcode,
+  spelling
+Suggests: 
+    testthat (>= 3.0.0),
+    ggplot2,
+Config/testthat/edition: 3
